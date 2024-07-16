@@ -24,8 +24,7 @@ function calculate(){
     
 }
 
-function clear(){
-    alert("hey")
-    document.getElementsByClassName("frmcalc").value.reset()
+function clearForm(){
+    document.querySelector(".frmcalc").reset()
     document.getElementById('res').value = ''
 }
